@@ -156,6 +156,15 @@
     vite "5.4.14"
     watchpack "2.4.1"
 
+"@angular/cdk@^18.0.0":
+  version "18.2.14"
+  resolved "https://registry.npmmirror.com/@angular/cdk/-/cdk-18.2.14.tgz#6114f37a77f2f182de482da2273c70f74a6cc52d"
+  integrity sha512-vDyOh1lwjfVk9OqoroZAP8pf3xxKUvyl+TVR8nJxL4c5fOfUFkD7l94HaanqKSRwJcI2xiztuu92IVoHn8T33Q==
+  dependencies:
+    tslib "^2.3.0"
+  optionalDependencies:
+    parse5 "^7.1.2"
+
 "@angular/cli@^18.2.14":
   version "18.2.14"
   resolved "https://registry.npmmirror.com/@angular/cli/-/cli-18.2.14.tgz#d25ff1da20ea699c88aeb15428610418de802540"
@@ -241,6 +250,28 @@
   integrity sha512-VKmfgi/r/CkyBq9nChQ/ptmfu0JT/8ONnLVJ5H+SkFLRYJcIRyHLKjRihMCyVm6xM5yktOdCaW73NTQrFz7+bg==
   dependencies:
     tslib "^2.3.0"
+
+"@ant-design/colors@^7.0.0":
+  version "7.2.0"
+  resolved "https://registry.npmmirror.com/@ant-design/colors/-/colors-7.2.0.tgz#80d7325d20463f09c7839d28da630043dd5c263a"
+  integrity sha512-bjTObSnZ9C/O8MB/B4OUtd/q9COomuJAR2SYfhxLyHvCKn4EKwCN3e+fWGMo7H5InAyV0wL17jdE9ALrdOW/6A==
+  dependencies:
+    "@ant-design/fast-color" "^2.0.6"
+
+"@ant-design/fast-color@^2.0.6":
+  version "2.0.6"
+  resolved "https://registry.npmmirror.com/@ant-design/fast-color/-/fast-color-2.0.6.tgz#ab4d4455c1542c9017d367c2fa8ca3e4215d0ba2"
+  integrity sha512-y2217gk4NqL35giHl72o6Zzqji9O7vHh9YmhUVkPtAOpoTCH4uWxo/pr4VE8t0+ChEPs0qo4eJRC5Q1eXWo3vA==
+  dependencies:
+    "@babel/runtime" "^7.24.7"
+
+"@ant-design/icons-angular@^18.0.0":
+  version "18.0.0"
+  resolved "https://registry.npmmirror.com/@ant-design/icons-angular/-/icons-angular-18.0.0.tgz#5415f8bf2130d35a248a5e422f36f1fd549265ac"
+  integrity sha512-nxNtHKd7MyGNnEyv22NK5hZ/Pczp63XJfej9zPjxiXm0wvJeIdMNUPOKtsdVkyPTRjRGHGe7F9M0Gv9SmyIjrQ==
+  dependencies:
+    "@ant-design/colors" "^7.0.0"
+    tslib "^2.0.0"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.24.7", "@babel/code-frame@^7.26.2":
   version "7.26.2"
@@ -1179,7 +1210,7 @@
   dependencies:
     regenerator-runtime "^0.14.0"
 
-"@babel/runtime@^7.8.4":
+"@babel/runtime@^7.21.0", "@babel/runtime@^7.24.7", "@babel/runtime@^7.8.4":
   version "7.26.9"
   resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.26.9.tgz#aa4c6facc65b9cb3f87d75125ffd47781b475433"
   integrity sha512-aA63XwOkcl4xxQa3HjPMqOP6LiK0ZDv3mUPYEFXkpHbaFjtGggE1A61FjFzJnB+p7/oy2gA8E+rcBNl/zC1tMg==
@@ -3162,6 +3193,13 @@ custom-event@~1.0.0:
   resolved "https://registry.npmmirror.com/custom-event/-/custom-event-1.0.1.tgz#5d02a46850adf1b4a317946a3928fccb5bfd0425"
   integrity sha512-GAj5FOq0Hd+RsCGVJxZuKaIDXDf3h6GQoNEjFgbLLI/trgtavwUbSnZ5pVfg27DVCaWjIohryS0JFwIJyT2cMg==
 
+date-fns@^2.16.1:
+  version "2.30.0"
+  resolved "https://registry.npmmirror.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
+  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
+  dependencies:
+    "@babel/runtime" "^7.21.0"
+
 date-format@^4.0.14:
   version "4.0.14"
   resolved "https://registry.npmmirror.com/date-format/-/date-format-4.0.14.tgz#7a8e584434fb169a521c8b7aa481f355810d9400"
@@ -5057,6 +5095,16 @@ neo-async@^2.6.2:
   resolved "https://registry.npmmirror.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+ng-zorro-antd@^18.2.1:
+  version "18.2.1"
+  resolved "https://registry.npmmirror.com/ng-zorro-antd/-/ng-zorro-antd-18.2.1.tgz#79b303dd9507b0875e2615f0a16117efc0715bcb"
+  integrity sha512-LAG3n7no9nwB0dZMaydSFutQ3JjipC88dpM23lxJCVTjzNHIbZiRrVdJcudpCs5RItBu74PMcXcSBmpF2E6SYQ==
+  dependencies:
+    "@angular/cdk" "^18.0.0"
+    "@ant-design/icons-angular" "^18.0.0"
+    date-fns "^2.16.1"
+    tslib "^2.3.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/nice-napi/-/nice-napi-1.0.2.tgz#dc0ab5a1eac20ce548802fc5686eaa6bc654927b"
@@ -5399,7 +5447,7 @@ parse5-sax-parser@^7.0.0:
   dependencies:
     parse5 "^7.0.0"
 
-parse5@^7.0.0:
+parse5@^7.0.0, parse5@^7.1.2:
   version "7.2.1"
   resolved "https://registry.npmmirror.com/parse5/-/parse5-7.2.1.tgz#8928f55915e6125f430cc44309765bf17556a33a"
   integrity sha512-BuBYQYlv1ckiPdQi/ohiivi9Sagc9JG+Ozs0r7b/0iK3sKmrb0b9FdWdBbOdx6hBCM/F9Ir82ofnBhtZOjCRPQ==
@@ -6856,6 +6904,7 @@ wildcard@^2.0.1:
   integrity sha512-CC1bOL87PIWSBhDcTrdeLo6eGT7mCFtrg0uIJtqJUFyK+eJnzl8A1niH56uu7KMa5XFrtiV+AQuHO3n7DsHnLQ==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.npmmirror.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
